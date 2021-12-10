@@ -6,10 +6,16 @@ function Card({children, reverse}) {
             {children}
         </div>
     )
+
 }
 
 Card.propTypes = {
-    reverse: PropTypes.bool
+    reverse: PropTypes.bool,
+    children: PropTypes.node.isRequired
+}
+
+Card.defaultProps = {
+    reverse: false
 }
 
 export default Card
