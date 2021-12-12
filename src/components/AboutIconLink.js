@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+
 import {FaQuestion} from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 
@@ -13,9 +13,7 @@ function AboutIconLink(props) {
     )
 }
 
-AboutIconLink.propTypes = {
 
-}
 
 export default AboutIconLink
 
